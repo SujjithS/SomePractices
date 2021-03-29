@@ -1,0 +1,4 @@
+PartNumber,Type,ParentPartNumber,Sequence,ParentGroupIdentifier,CurrencyCode,ListPrice,Price,Name,ShortDescription,LongDescription,Thumbnail,FullImage,Delete
+Vita,Product,,1,Vitamins,USD,30,25,Men's corduroy Vitamins,Men's 8-wale corduroy Vitamins ,Men's 8-wale corduroy Vitamins provide style and comfort.,images/catalog/mens_Vitamins_Vita_sm.gif,images/catalog/mens_Vitamins_Vita.gif,0
+Vita-Black-29W x 28L,Item,Vita,1,Vitamins,USD,30,25,Men's corduroy Vitamins - Black 29W x 28L,Men's corduroy Vitamins - Black 29 Width x 28 Length,"Fabric 50% cotton, 50% polyester.",images/catalog/mens_Vitamins_Vita_sm.gif,images/catalog/mens_Vitamins_Vita.gif,0
+Vita-Brown-29W x 28L,Item,Vita,2,Vitamins,USD,30,25,Men's corduroy Vitamins - Brown 29W x 28L,Men's corduroy Vitamins - Brown 29 Width x 28 Length,"Fabric 50% cotton, 50% polyester.",images/catalog/mens_Vitamins_Vita_sm.gif,images/catalog/mens_Vitamins_Vita.gif,0
