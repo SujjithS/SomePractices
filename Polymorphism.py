@@ -6,11 +6,11 @@ class Animal:
 class Cat(Animal):
   def talk(self):
     print("Meow") 
-class Cow(Animal):
+class Duck(Animal):
    def talk(self):
-     print("Moo")
+     print("Quack Quack")
 
 c=Cat("Kitty")
 c.talk()   
-d=Cow("Judy")
+d=Duck("Judy")
 d.talk()
