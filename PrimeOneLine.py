@@ -6,4 +6,4 @@ for i in c:
     Primecount+=1
   else:
     continue
-print("Count",Primecount)
+print("Number of prime numbers",Primecount)
