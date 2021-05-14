@@ -1,5 +1,2 @@
-<<<<<<< Updated upstream
-Hi this is just a text file
-=======
 Hello World
->>>>>>> Stashed changes
+
