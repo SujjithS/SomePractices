@@ -1,14 +1,23 @@
-from openpyxl import load_workbook
+import threading
 
-wb = load_workbook(filename='CatalogEntries-Vita.xlsx') #load workbook from the location
-wb.active=2
-ws = wb.active
-# List sheets available
-sheets = wb.get_sheet_names()
-print(sheets)
+def printSquare(num):
+  print("Cube: {}".format(num*num))
+def printCube(num):
+  print("Square: {}".format(num*num*num))
 
-# Load active sheet or named sheet
-sheet = wb.active
-# sheet = wb['User Information']
-# Read a specific cell
-print(sheet['J4'].value)
+#create Thread
+t1=threading.Thread(target=printSquare,args=(10))
+t2=threading.Thread(target=printCube,args=(10))
+
+#start Thread
+t1.start()
+t2.start()
+
+
+#wait until t1 is completely executed
+t1.join()
+
+#wait until t2 is completely executed
+t2.join()
+
+print("Done!")
