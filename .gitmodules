@@ -1,0 +1,3 @@
+[submodule "MyGroovy"]
+	path = MyGroovy
+	url = https://github.com/SujjithS/MyGroovy.git
